@@ -1,7 +1,7 @@
 var slider = tns({
     container: '#carousel-wrapper',
     items: 4,
-    gutter: 30,
+    gutter: 25,
     slideBy: '1',
     autoplay: true,
     speed: 500,
