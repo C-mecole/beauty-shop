@@ -1,7 +1,6 @@
 var slider = tns({
     container: '#carousel-wrapper',
     items: 4,
-    gutter: 25,
     slideBy: '1',
     autoplay: true,
     speed: 500,
@@ -56,3 +55,16 @@ const observer = new IntersectionObserver ((entries) => {
 
 const hiddenElements = document.querySelectorAll('.hidden');
 hiddenElements.forEach((el) => observer.observe(el));
+
+let menuList = document.getElementById ( "menuList" )
+menuList.style.maxHeight = "0px";
+
+function toggleMenu(){
+    if(menuList.style.maxHeight == "0px")
+    {
+        menuList.style.maxHeight = "60vh";
+    }
+    else{
+        menuList.style.maxHeight = "0px";
+    }
+}

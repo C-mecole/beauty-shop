@@ -11,39 +11,22 @@
 <body>
     <div class="loader"></div>
     <header>
-        <div class="icon">
-            <img src="https://mayie-shop.netlify.app/images/Logo.png" alt="">
+        <img src="https://mayie-shop.netlify.app/images/Logo.png" alt="logo" class="logo">
+        <nav class="nav-bar">
+            <ul id="menuList">
+                <li><a href="" class="first">home</a></li>
+                <li><a href="">about</a></li>
+                <li><a href="">our work</a></li>
+                <li><a href="">service</a></li>
+                <li><a href="">careers</a></li>
+                <a href=""><button>Get in touch</button></a>
+            </ul>
+        </nav>
+        <button>Get in touch</button>
+        <div class="menu-icon">
+            <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
         </div>
-        <div id="header">
-            <nav>
-                <ul>
-                    <li class="links">home</li>
-                    <li class="links">about</li>
-                    <li class="links">our work</li>
-                    <li class="links">services</li>
-                    <li class="links">careers</li>
-                </ul>
-            </nav>
-        </div>
-        <div class="hero">
-            <button class="hero-btn">Get in touch</button>
-        <svg
-          class="menu-icon"
-          id="menu-icon"
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke-width="1.5"
-          stroke="currentColor"
-          class="size-6"
-        >
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
-          />
-        </svg>
-        </div>
+
     </header>
     <!-- end of header section  -->
     <main>
@@ -165,29 +148,39 @@
             </div>
             <div class="carousel">
                 <div id="carousel-wrapper">
-                    <div class="slide-cont" id="photo-1">
-                        <div class="slider">
-                            <img src="https://mayie-shop.netlify.app/images/Ellipse%207.png" alt="galley photos">
+                    <div class="slide-wrap">
+                        <div class="slide-cont">
+                            <div class="slider">
+                                <img src="https://mayie-shop.netlify.app/images/Ellipse%207.png" alt="galley photos">
+                            </div>
                         </div>
                     </div>
-                    <div class="slide-cont" id="photo-2">
-                        <div class="slider">
-                            <img src="https://mayie-shop.netlify.app/images/Ellipse%208.png" alt="galley photos">
+                    <div class="slide-wrap" >
+                        <div class="slide-cont">
+                            <div class="slider">
+                                <img src="https://mayie-shop.netlify.app/images/Ellipse%208.png" alt="galley photos">
+                            </div>
                         </div>
                     </div>
-                    <div class="slide-cont" id="photo-3">
-                        <div class="slider">
-                            <img src="https://mayie-shop.netlify.app/images/Ellipse%209.png" alt="galley photos">
+                    <div class="slide-wrap">
+                        <div class="slide-cont">
+                            <div class="slider">
+                                <img src="https://mayie-shop.netlify.app/images/Ellipse%209.png" alt="galley photos">
+                            </div>
                         </div>
                     </div>
-                    <div class="slide-cont" id="photo-4">
-                        <div class="slider">
-                            <img src="https://mayie-shop.netlify.app/images/Ellipse%2010.png" alt="galley photos">
+                    <div class="slide-wrap">
+                        <div class="slide-cont">
+                            <div class="slider">
+                                <img src="https://mayie-shop.netlify.app/images/Ellipse%2010.png" alt="galley photos">
+                            </div>
                         </div>
                     </div>
-                    <div class="slide-cont" id="photo-5">
-                        <div class="slider">
-                            <img src="https://mayie-shop.netlify.app/images/Ellipse%2011.png" alt="galley photos">
+                    <div class="slide-wrap">
+                        <div class="slide-cont">
+                            <div class="slider">
+                                <img src="https://mayie-shop.netlify.app/images/Ellipse%2011.png" alt="galley photos">
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -234,14 +227,10 @@
             </span>
         </div>
     </footer>
+    <script src="https://kit.fontawesome.com/f8e1a90484.js" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/min/tiny-slider.js"
         integrity="sha512-j+F4W//4Pu39at5I8HC8q2l1BNz4OF3ju39HyWeqKQagW6ww3ZF9gFcu8rzUbyTDY7gEo/vqqzGte0UPpo65QQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer">
-    </script>
-<script>
-        document.getElementById("menu-icon").addEventListener("click", () => {
-            document.querySelector("nav").classList.toggle("show-menu");
-        });
     </script>
     <script src="index.js"></script>
 </body>
