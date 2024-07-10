@@ -12,10 +12,10 @@ html, body {
     overflow-x: hidden;
 }
 header {
-    height: 70px;
+    height: 80px;
     width: 100%;
     background-color: #f0d1f474;
-    /* -webkit-backdrop-filter: blur(10px); */
+    -webkit-backdrop-filter: blur(10px);
               backdrop-filter: blur(10px);
     -ms-flex-pack: distribute;
         justify-content: space-around;
