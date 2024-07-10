@@ -319,6 +319,7 @@ main {
     height: inherit;
     width: inherit;
 }
+/* third section */
 .third-section {
     background-color: #21051c;
     min-height: 75vh;
@@ -334,7 +335,7 @@ main {
     gap: 100px;
     margin-left: 20vw;
 }
-.fa-image {
+.ha-image {
     height: 320px;
     width: 300px;
     /* border: 1px solid #341dbe; */
@@ -666,34 +667,6 @@ main {
 
 @media (max-width: 780px) {
 
-    /* #header {
-        justify-content: space-between;
-        padding-inline: 30px;
-    }
-
-    nav ul {
-        position: absolute;
-        left: 0;
-        top: 100vh;
-        width: 100%;
-        height: 70vh;
-        background-color: rgba(2, 2, 22, 0.805);
-        backdrop-filter: blur(10px);
-        display: flex;
-        flex-direction: column;
-        justify-content: start;
-        align-items: center;
-        padding-top: 100px;
-        gap: 30px;
-        z-index: 100;
-        transition: top 0.7s;
-    }
-    .hero>.hero-btn {
-        display: none;
-    }
-    header .menu-icon {
-        display: block;
-    } */
     .first-flex {
         width: 100%;
         height: 100vh;
